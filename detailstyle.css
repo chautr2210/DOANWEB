@@ -1,0 +1,138 @@
+.color-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+  }
+
+  .color-button.selected {
+    border: 2px solid rgb(233, 20, 20); /* Thay đổi biểu hiện khi nút được chọn */
+  }
+ 
+  .size-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e5e5e5;
+    margin-right: 10px;
+    background:#fff;
+    
+  }
+
+  .size-button.selected {
+    border: 2px solid rgb(0, 0, 0); /* Thay đổi biểu hiện khi nút được chọn */
+    
+  }
+
+  .qty-btn {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #dddddd;
+    margin-right: 0;
+    background:#f2f5fa;
+  }
+
+  .quantity-selector{
+    width: 100px;
+    height: 35px;
+    border: 1px solid #dddddd;
+    margin-right: 0;
+    background:#fff;
+  }
+
+  .tensp{
+    font-family: "Neue Haas Grotesk Display", sans-serif;
+    font-weight:bold;
+    font-size: 33px;
+    
+  }
+
+  .giasp{
+    font-family: "Inter", sans-serif;
+    font-size: 25.63px;
+  }
+
+  
+
+  
+  
+  .color-button {
+    height: 50px;
+    border: 2px;
+    position: relative;
+    border: 1px solid #e5e5e5;
+  }
+  
+  
+
+
+  .btnaddtocart {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    
+  }
+
+  .add-to-cart-button {
+    width: 100%;
+}
+
+.breadcrumb {
+    border: none;
+    background-color: transparent;
+}
+.also-like-wrapper {
+    overflow-x: auto;
+    padding: 20px 0;
+  }
+
+.also-like-inner {
+    white-space: nowrap;
+  }
+
+.also-like-inner .col-6{
+    width: 50%;
+    float: none;
+  }
+
+.also-like-inner .col-3{
+    width: auto;
+  }
+
+.also-like-inner .ten-sp {
+    margin-top: 20px;
+  }
+
+  .also-like-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .also-like-heading__title {
+    margin-top: 80px;
+    margin-left: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    }
+    
+    .also-like-heading__more {
+    margin-right: 50px;
+    margin-top: 75px;
+    }
+    
+    .also-like {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+ 
+    @media (max-width: 960px) {
+      .ten-sp1 {
+          font-size: 80%; /* Điều chỉnh kích thước chữ nhỏ hơn cho màn hình nhỏ hơn 960px */
+      }
+  }
+  

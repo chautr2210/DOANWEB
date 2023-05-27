@@ -1,0 +1,398 @@
+.icon-right-header2 span {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  font-size: 15px;
+  padding: 0 5px;
+  background: #96614F;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 0;
+ }
+ .mega-menu-inner {
+  width: 1035px;
+  padding: 0 20px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif !important;
+ }
+ .custom-mega-menu {
+  display: none;
+ }
+ .dropdown:hover .custom-mega-menu {
+  display: block;
+ }
+ .menu-header .home-navbar-custom .dropdown-menu {
+  padding-top: 0;
+  background-color: #fff;
+  border: none;
+  font-size: 15px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 50px;
+  margin: 0;
+ }
+ .best-seller-wrapper {
+  overflow-x: auto;
+  padding: 20px 0;
+ }
+ 
+ 
+ 
+ 
+ .best-seller-inner {
+  white-space: nowrap;
+ }
+ 
+ 
+ 
+ 
+ .best-seller-inner .col-6 {
+  width: 50%;
+  float: none;
+ }
+ 
+ 
+ 
+ 
+ .best-seller-inner .col-lg-3 {
+  width: auto;
+ }
+ 
+ 
+ 
+ 
+ .best-seller-inner .ten-sp {
+  margin-top: 20px;
+ }
+ 
+ 
+ 
+ 
+ .section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ 
+ 
+ 
+ 
+ .section-heading__title {
+  margin-top: 80px;
+  margin-left: 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  }
+  .section-heading__more {
+  margin-right: 50px;
+  margin-top: 75px;
+  }
+  .best-seller {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  }
+  .banner-collection-middle{
+      margin-top: 100px;
+  }  
+  .new-arrival-wrapper {
+      overflow-x: auto;
+      padding: 20px 0;
+    }
+  .new-arrival-inner {
+      white-space: nowrap;
+    }
+ .new-arrival-inner .col-6{
+      width: 50%;
+      float: none;
+    }
+  .new-arrival-inner .col-3{
+      width: auto;
+    }
+  .new-arrival-inner .ten-sp {
+      margin-top: 20px;
+    }
+    .new-arriv-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .new-arriv-heading__title {
+      margin-top: 80px;
+      margin-left: 50px;
+      font-family: "Inter", sans-serif;
+      font-size: 50px;
+      }
+    
+      .new-arriv-heading__more {
+      margin-right: 50px;
+      margin-top: 75px;
+      }
+    
+      .new-arrival {
+      margin-top: 50px;
+      margin-left: 30px;
+      margin-right: 30px;
+      }
+      .footer{
+          margin-top:100px;
+      }
+      ul {
+          list-style-type: none;
+          padding: 0;
+        }
+      
+        .item-mega-menu {
+          padding: 15px;
+        }
+      
+        .item-mega-menu ul {
+          margin-top: 10px;
+        }
+      
+        .item-mega-menu ul li {
+          margin-bottom: 10px;
+        }
+      
+        .item-mega-menu h3 {
+          font-size: 20px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          margin-bottom: 25px;
+ 
+ 
+ 
+ 
+        }
+      
+        .item-mega-menu ul {
+          list-style: none;
+        }
+      
+        .mega-menu-inner {
+          display: flex;
+        }
+      
+        .item-mega-menu {
+          flex-basis: 33.33%;
+          max-width: 33.33%;
+        }
+        .footer-container{
+          min-height:300px;
+          margin-top:80px;
+          background-color: #f5f4ed;
+        }
+        .footer{
+          margin-top:100px;
+          margin-left:50px;
+          margin-right:50px;
+          color:black;
+        }
+        .col-12.col-lg-4.justify-content-center{
+          margin-top:30px;
+        }
+        .row{
+          margin-left:50px;
+          margin-right:50px;
+        }
+ 
+ 
+ 
+ 
+        .col-12.col-lg-4.justify-content-center h5{
+          margin-bottom:25px;
+        }
+     
+        .product-link {
+            color: black;
+            text-decoration: none;
+        }
+  
+        .product-link:hover {
+          color: #96614F;
+            text-decoration: none;
+        }
+ 
+ 
+ .show {
+    display: block !important;
+  }
+ 
+ 
+  @media (max-width: 767px) {
+    .header-link__display,
+    .icon-right-header {
+      display: none;
+    }
+  }
+ 
+ 
+    .navbar-toggler {
+        order: -1;
+        float:left;
+    }
+ 
+ 
+    .navbar-collapse {
+        order: 0;
+    }
+  .header-link__display,
+ .icon-right-header {
+  display: inline-block !important;
+ }
+ @media screen and (min-width: 768px) {
+  .custom-mega-menu {
+    /* các thuộc tính của dropdown-menu khi xem trên desktop */
+    /* ví dụ: */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ 
+ 
+  .custom-mega-menu .dropdown-menu {
+    /* các thuộc tính của dropdown-menu con khi xem trên desktop */
+    /* ví dụ: */
+    box-shadow: none;
+  }
+   .custom-mega-menu .dropdown-menu.custom-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .header-link__display {
+  margin-right: 10px;
+ }
+ 
+ 
+ .icon-right-header {
+  margin-left: 10px;
+ }
+ 
+ 
+ .dropdown-menu.custom-mega-menu a {
+  color: black; /* Màu chữ khi trỏ chuột vào */
+  text-decoration: none; /* Loại bỏ gạch chân dưới khi trỏ chuột vào */
+ }
+ 
+ 
+ .dropdown-menu.custom-mega-menu a:hover {
+  color: #96614F; /* Màu chữ khi trỏ chuột vào */
+  text-decoration: none; /* Loại bỏ gạch chân dưới khi trỏ chuột vào */
+ }
+ 
+ 
+ 
+ 
+ @media (max-width: 991px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 100px; /* Điều chỉnh khoảng cách từ top nếu cần thiết */
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #fff; /* Tùy chỉnh màu nền cho thanh navbar */
+    overflow-y: auto;
+    max-height: calc(100vh - 100px); /* Điều chỉnh chiều cao tối đa nếu cần thiết */
+  }
+ 
+ 
+  .navbar-nav {
+    display: block;
+  }
+ 
+ 
+  .navbar-nav .nav-item {
+    float: none;
+  }
+ }
+ 
+ 
+ @media (max-width: 991px) {
+  .mega-menu-inner {
+    display: flex;
+    flex-direction: column;
+  }
+   .item-mega-menu {
+    width: 100%;
+  }
+   .item-mega-menu h3 {
+    text-align: left;
+  }
+   .item-mega-menu ul {
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+   .item-mega-menu ul li {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+ }
+ /* CSS for Desktop */
+ @media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu.custom-mega-menu {
+    display: block;
+  }
+ }
+ 
+ 
+ /* CSS for Mobile */
+ @media (max-width: 767px) {
+  .dropdown .dropdown-menu.custom-mega-menu {
+    display: none;
+  }
+ 
+ 
+  .dropdown.show .dropdown-menu.custom-mega-menu {
+    display: block;
+  }
+  .custom-mega-menu {
+    border:none;
+  }
+  }
+ 
+  @media (min-width: 960px) {
+    .custom-mega-menu {
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+ 
+  .search-container {
+    position: relative;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    
+    
+}
+
+
+  
+  .search-container form {
+      width: 68%; /* Hoặc giá trị tùy chọn khác */
+      margin-top:14px;
+      
+  }
+  
+  .search-container a {
+    width: 30px; /* Hoặc giá trị tùy chọn khác */
+  }
+  
+  .icon-right-header1 {
+    position: relative;
+    top: -1px;
+  }
+  
+  .icon-right-header2 {
+    position: relative;
+    top: 0px; 
+  }
+  
+  
+

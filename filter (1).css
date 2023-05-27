@@ -1,0 +1,594 @@
+.icon-right-header2 span {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    font-size: 15px;
+    padding: 0 5px;
+    background: #96614F;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 0;
+   }
+   .mega-menu-inner {
+    width: 1035px;
+    padding: 0 20px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif !important;
+   }
+   .custom-mega-menu {
+    display: none;
+   }
+   .dropdown:hover .custom-mega-menu {
+    display: block;
+   }
+   .menu-header .home-navbar-custom .dropdown-menu {
+    padding-top: 0;
+    background-color: #fff;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: 0;
+   }
+  
+   .new-arrival-inner {
+    white-space: nowrap;
+  }
+  .new-arrival-inner .col-6{
+    width: 50%;
+    float: none;
+  }
+  
+  .new-arrival-inner .ten-sp {
+    margin-top: 20px;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  
+  .new-arrival {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+  
+  
+  .item-mega-menu {
+    padding: 15px;
+  }
+  
+  .item-mega-menu ul {
+    margin-top: 10px;
+  }
+  
+  .item-mega-menu ul li {
+    margin-bottom: 10px;
+  }
+  .item-mega-menu h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-bottom: 25px;
+  
+  
+  
+  
+  }
+  
+  .item-mega-menu ul {
+    list-style: none;
+  }
+  
+  .mega-menu-inner {
+    display: flex;
+  }
+  
+  .item-mega-menu {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+  }
+  
+  
+  .product-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .product-link:hover {
+  color: #96614F;
+    text-decoration: none;
+  }
+  
+  
+  .show {
+  display: block !important;
+  }
+  
+  
+  @media (max-width: 767px) {
+  .header-link__display,
+  .icon-right-header {
+  display: none;
+  }
+  }
+  
+  
+  .navbar-toggler {
+  order: -1;
+  float:left;
+  }
+  
+  
+  .navbar-collapse {
+  order: 0;
+  }
+  .header-link__display,
+  .icon-right-header {
+  display: inline-block !important;
+  }
+  @media screen and (min-width: 768px) {
+  .custom-mega-menu {
+  /* các thuộc tính của dropdown-menu khi xem trên desktop */
+  /* ví dụ: */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .custom-mega-menu .dropdown-menu {
+  /* các thuộc tính của dropdown-menu con khi xem trên desktop */
+  /* ví dụ: */
+  box-shadow: none;
+  }
+  .custom-mega-menu .dropdown-menu.custom-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  }
+  
+  
+  
+  
+  
+  
+  .header-link__display {
+  margin-right: 10px;
+  }
+  
+  
+  .icon-right-header {
+  margin-left: 10px;
+  }
+  
+  
+  .dropdown-menu.custom-mega-menu a {
+  color: black; /* Màu chữ khi trỏ chuột vào */
+  text-decoration: none; /* Loại bỏ gạch chân dưới khi trỏ chuột vào */
+  }
+  
+  
+  .dropdown-menu.custom-mega-menu a:hover {
+  color: #96614F; /* Màu chữ khi trỏ chuột vào */
+  text-decoration: none; /* Loại bỏ gạch chân dưới khi trỏ chuột vào */
+  }
+  
+  
+  
+  
+  @media (max-width: 991px) {
+  .navbar-collapse {
+  position: fixed;
+  top: 100px; /* Điều chỉnh khoảng cách từ top nếu cần thiết */
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #fff; /* Tùy chỉnh màu nền cho thanh navbar */
+  overflow-y: auto;
+  max-height: calc(100vh - 100px); /* Điều chỉnh chiều cao tối đa nếu cần thiết */
+  }
+  
+  
+  .navbar-nav {
+  display: block;
+  }
+  
+  
+  .navbar-nav .nav-item {
+  float: none;
+  }
+  }
+  
+  
+  @media (max-width: 991px) {
+  .mega-menu-inner {
+  display: flex;
+  flex-direction: column;
+  }
+  .item-mega-menu {
+  width: 100%;
+  }
+  .item-mega-menu h3 {
+  text-align: left;
+  }
+  .item-mega-menu ul {
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+  }
+  .item-mega-menu ul li {
+  padding: 0;
+  margin-bottom: 10px;
+  }
+  }
+  /* CSS for Desktop */
+  @media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu.custom-mega-menu {
+  display: block;
+  }
+  }
+  
+  
+  /* CSS for Mobile */
+  @media (max-width: 767px) {
+  .dropdown .dropdown-menu.custom-mega-menu {
+  display: none;
+  }
+  
+  
+  .dropdown.show .dropdown-menu.custom-mega-menu {
+  display: block;
+  }
+  .custom-mega-menu {
+  border:none;
+  }
+  }
+  
+  @media (min-width: 960px) {
+  .custom-mega-menu {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+  }
+  
+  .search-container {
+  position: relative;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  
+  
+  }
+  
+  
+  
+  .search-container form {
+  width: 68%; /* Hoặc giá trị tùy chọn khác */
+  margin-top:14px;
+  
+  }
+  
+  .search-container a {
+  width: 30px; /* Hoặc giá trị tùy chọn khác */
+  }
+  
+  .icon-right-header1 {
+  position: relative;
+  top: -1px;
+  }
+  
+  .icon-right-header2 {
+  position: relative;
+  top: 0px; 
+  }
+  
+  
+  
+  .filter {
+   
+      margin-top: 45px;
+      position: sticky;
+      top: 120;
+      left: 0;
+      bottom:0;
+  
+  }
+  
+    .label-category {
+      font-size: 18px;
+      margin-left: 40px;
+      margin-bottom: 15px;
+      margin-top: 0px;
+    }
+    
+    .biglabel {
+      cursor: pointer;
+      position: relative;
+      list-style-type: none;
+      margin-left: 0px;
+      padding-bottom: 10px;
+    }
+    .biglabel ul {
+      margin-left: -27px;
+    }
+    
+    .label-color {
+      font-size: 18px;
+      margin-left: 40px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+    }
+  
+    ul li {
+      font-size: 16px;
+      margin-top: 4px;
+      
+    }
+  
+    .menu-sort {
+      padding-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+     }
+  
+     .filter-container {
+   
+      margin-top: 0px;
+      margin-left:0px;
+      background-color: rgb(248, 246, 246);
+      height: auto;
+     
+         
+    }
+  
+    ul {
+      list-style-type: none;
+    }
+  
+    .price-slider ul {
+      margin-top: 0px;
+      margin-left: -45px;
+      
+     }
+  
+     .color-swatches {
+      margin-left: 0px;
+      margin-top: 0px;
+  
+  }
+  .colorlabel {
+    margin-right: 0px; /* Khoảng cách bên phải giữa các biglabel */
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+  }
+  
+  .colorlabel li {
+    margin-bottom: 15px; /* Khoảng cách dưới của các thẻ li */
+  }
+  .colorlabel.col-6.col-lg-6 {
+  margin-right:-40px;
+  }
+  
+  .ovanwhite {
+    background-color:white;
+    border-radius: 20px;
+    height: 32px;
+    width:75px;
+  }
+  
+  .ovanwhite #white {
+    margin-top: 8px;
+    margin-left:7px;
+  }
+  
+  .ovanblack {
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    height: 32px;
+    width:75px;
+  }
+  .ovanblack #black {
+    margin-top: 8px;
+    margin-left:7px;
+  }
+  .ovangreen {
+    background-color:rgb(21, 178, 21);
+    color: white;
+    border-radius: 20px;
+    height: 32px;
+    width:75px;
+  }
+  .ovangreen #green {
+    margin-top: 8px;
+    margin-left:7px;
+  }
+  .ovanbeige {
+    background-color:rgb(239, 211, 168);
+    color: black;
+    border-radius: 20px;
+    height: 32px;
+    width:75px;
+  }
+  .ovanbeige #beige {
+    margin-top: 8px;
+    margin-left:7px;
+  }
+  .ovanblue {
+    background-color:rgb(90, 187, 240);
+    color: white;
+    border-radius: 20px;
+    height: 32px;
+    width:78px;
+    margin-left: 10px;
+  }
+  .ovanblue #blue {
+    margin-top: 8px;
+    margin-left:7px;
+  }
+  .ovanyellow {
+    background-color:rgb(244, 244, 94);
+    color: black;
+    border-radius: 20px;
+    height: 32px;
+    width:78px;
+    margin-left: 10px;
+  }
+  .ovanyellow #yellow {
+    margin-top: 8px;
+    margin-left:7px;
+  }
+  .ovangrey {
+    background-color: rgb(160, 159, 159);
+    color: white;
+    border-radius: 20px;
+    height: 32px;
+    width:78px;
+    margin-left: 10px;
+  }
+  .ovangrey #grey {
+    margin-top: 8px;
+    margin-left:7px;
+  }
+  .ovanbrown {
+    background-color: rgb(149, 107, 81);
+    color: white;
+    border-radius: 20px;
+    height: 32px;
+    width:78px;
+    margin-left: 10px;
+  }
+  .ovanbrown #brown {
+    margin-top: 8px;
+    margin-left:7px;
+  }
+  
+  .bestseller-container {
+    text-align: center;
+  }
+  .newarrival-container {
+    text-align: center;
+    
+  
+  }
+  .price {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .bestseller {
+    background-color: white;/* Màu nền */
+    border-left: 1px solid white; /* Màu viền bên trái */
+    border-right: 2px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+    font-size: 18px;
+    
+  }
+  
+  .newarrival {
+    background-color:white; /* Màu nền */
+    border-right: 1px solid white; /* Màu viền bên trái */
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+    font-size: 18px;
+    
+    
+  }
+  .price-label {
+    font-size: 18px;
+  }
+  .menu-sort {
+    background-color: white;
+    border-bottom: 2px solid black;
+    margin-top:30px;
+    
+   
+  }
+  .content-wrapper {
+    margin-top: 50px
+  }
+  .result {
+    text-align: center;
+    margin-bottom: -10px;
+    color: #96614F;
+    
+    
+  }
+  
+  .search-result {
+    font-size: 27px;
+    
+  }
+  .img {
+    width: 100px; /* Kích thước chiều rộng ảnh */
+    height: auto; /* Để tỷ lệ khung hình tự điều chỉnh */
+  }
+  
+  .rectangle {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 9999; /* Đặt độ ưu tiên hiển thị lớn hơn các phần tử khác */
+    white-space: nowrap; /* Ngăn các từ bị ngắt dòng */
+    width: 150px;
+    margin-right: -50px;
+  }
+  .price:hover .rectangle {
+    display: block;
+    cursor: pointer;
+    margin-left: 220px;
+  }
+  
+  .footer-container{
+    min-height:300px;
+    margin-top:80px;
+    background-color: #f5f4ed;
+    
+  }
+  
+  .col-12.col-lg-4.justify-content-center{
+    margin-top:30px;
+  }
+  .col-12.col-lg-4.justify-content-center h5{
+    margin-bottom:25px;
+  }
+  
+  .container-fluid.row {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  @media (min-width: 667px) and (max-width: 800px) {
+    .new-arrival-inner .row.new-arrival {
+      margin-left: 35px;
+    }
+  }
+
+
+  @media (min-width: 900px) and (max-width: 1000px) {
+    .new-arrival-inner .row.new-arrival {
+      margin-left: 120px;
+    }
+  }
+
+
+  .col-12.col-lg-4 {
+    margin-bottom: 30px;
+  }
+
+
+ .row.footer {
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+  
